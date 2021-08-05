@@ -17,6 +17,10 @@ export default function Home() {
         <h2 id="talks">Talks 🗣</h2>
         <p><a href="https://www.youtube.com/watch?v=AwfXypdYcv0">5 Things I Learned About Software Engineering From Watching Art Restoration Videos</a></p>
         <h2 id="software-projects">Software Projects 🌱</h2>
+        <h3 id="letter-press"><em>react-promise-state-hook</em></h3>
+        <p>A simple React hook that provides state for async actions.</p>
+        <p><a href="https://www.npmjs.com/package/react-promise-state-hook">Package</a></p>
+        <p><a href="https://github.com/stefee/react-promise-state-hook">Source</a></p>
         <h3 id="renditions"><em>renditions</em></h3>
         <p>JavaScript modules for implementing W3C-standard responsive images.</p>
         <p>Packages:</p>
