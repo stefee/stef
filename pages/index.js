@@ -10,6 +10,7 @@ export default function Home() {
       <h1>Stef's Website 🦖</h1>
 
       <main>
+        <input type="search" name="q" />
         <p>Welcome!</p>
         <p>You can email me at <a href="mailto:stef@srilq.email">stef@srilq.email</a>.</p>
         <h2 id="writing">Writing ✍️</h2>
