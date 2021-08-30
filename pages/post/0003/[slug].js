@@ -1,17 +1,18 @@
 import Head from 'next/head'
-import Index from '../content/index.md';
+import Content from '../../../content/0003-understanding-react-1.md';
 
-export default function Home() {
+export default function Post() {
   return (
     <div className="container">
       <Head>
-        <title>Stef's Website</title>
+        <title>Understanding React as a system - Part 1 - Stef's Website</title>
+        <meta name="description" content="I want to write about React to try and help people to understand what it is, how it works, why it is good, and what it is good for. This is the first post of a two part series. In this introductory post I want to lay down a baseline understanding of React and what it does for us. The second part will go into more detail about how a React application works at runtime so we can try to build a mental model of React as a system." />
       </Head>
 
-      <h1>Stef's Website 🦖</h1>
+      <a href="/">Home</a>
 
       <main>
-        <Index />
+        <Content />
       </main>
 
       <style jsx global>{`
@@ -34,6 +35,8 @@ export default function Home() {
         }
 
         body {
+          background-color: white;
+
           padding: 1rem 1rem 4rem;
           margin: 0 auto;
           max-width: 42rem;
@@ -49,6 +52,8 @@ export default function Home() {
         a {
           background-color: #ffb6c7;
           box-shadow: 0 -0.1rem #ffb6c7, 0 0.2rem #000;
+
+          word-break: break-word;
         }
 
         a:focus {
@@ -76,6 +81,29 @@ export default function Home() {
         h3 {
           margin-top: 2em;
           margin-bottom: 1em;
+        }
+
+        hr {
+          border: 1px solid black;
+
+          margin-top: 4em;
+          margin-bottom: 4em;
+
+          margin-right: 2em;
+          margin-left: 2em;
+        }
+
+        pre {
+          background-color: #ffe5eb;
+
+          padding-top: 1em;
+          padding-bottom: 1em;
+
+          overflow-x: scroll;
+        }
+
+        p code {
+          background-color: #ffe5eb;
         }
       `}</style>
     </div>
