@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from 'next/head';
 import Index from '../content/index.md';
 
 export default function Home() {
@@ -79,5 +79,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }
