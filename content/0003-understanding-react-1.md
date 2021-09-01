@@ -251,5 +251,5 @@ Also, thank you Sam Greenhalgh for reading my first draft. What a nice man.
 References:
 
 - _Is React Functional Programming?_ - Eric Normand<br />https://lispcast.com/is-react-functional-programming/
-- _Composition: Every Layout_ - Heydon Pickering & Andy<br />Bell https://every-layout.dev/rudiments/composition/
+- _Composition: Every Layout_ - Heydon Pickering & Andy Bell<br />https://every-layout.dev/rudiments/composition/
 - _Why Rust's Unsafe Works_ - jam1garner<br />https://jam1.re/blog/why-rusts-unsafe-works
