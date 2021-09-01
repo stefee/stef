@@ -8,8 +8,6 @@ export default function Home() {
         <title>Stef's Website</title>
       </Head>
 
-      <h1>Stef's Website 🦖</h1>
-
       <main>
         <Index />
       </main>
