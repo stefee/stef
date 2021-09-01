@@ -6,7 +6,7 @@ export default function Post() {
     <div className="container">
       <Head>
         <title>Understanding React as a system - Part 1 - Stef's Website</title>
-        <meta name="description" content="I want to write about React to try and help people to understand what it is, how it works, why it is good, and what it is good for. This is the first post of a two part series. In this introductory post I want to lay down a baseline understanding of React and what it does for us. The second part will go into more detail about how a React application works at runtime so we can try to build a mental model of React as a system." />
+        <meta name="description" content="I want to write about React to try and enable developers from various backgrounds to understand how it works, why it is good, and what it is good for. This is the first post of a two part series. In this introductory post I want to lay down a baseline understanding of React and what it does for us. The second part will go into more detail about how a React application works at runtime so we can try to build a mental model of React as a system." />
         <link rel="canonical" href="https://stef.sh/post/0003/understanding-react-as-a-system-part-1" />
       </Head>
 
