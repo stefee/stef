@@ -4,11 +4,11 @@
 
 ---
 
-I want to write about React to try and help people to understand what it is, how it works, why it is good, and what it is good for.
+I want to write about React to try and enable developers from various backgrounds to understand how it works, why it is good, and what it is good for.
 
 This is perhaps a rather lofty ambition. A lot of people have written about React already, so why do I feel the need to write this now?
 
-What I've found is that most of the writing about React is aimed at front-end developers who are experienced in developing websites and other kinds of user interface code. I think maybe this is because the adoption of React in many teams has hinged on convincing the front-end developers in the team that it's something that they should be using.
+What I've found is that most of the writing about React is aimed specifically at front-end developers who are experienced in developing websites and other kinds of user interface code. I think maybe this is because the adoption of React in many teams has hinged on convincing the front-end developers in the team that it's something that they should be using.
 
 React is very popular now in teams of various sizes, which is great, or at least I think so. What this means though is that developers from various different schools of thought are now developing products with React, many of whom might not have chosen to use it otherwise.
 
@@ -62,7 +62,7 @@ React does something similar for us, by allowing us to write our user interface 
 
 React allows us to define a **React component** as a single JavaScript function or class. A component encapsulates all of the appearance and behaviour that makes up some part of a user interface.
 
-And in doing so, React make it easy to reason about the behaviour of some part of a user interface by looking only within the scope of a single JavaScript function.
+And in doing so, React makes it possible for us to reason about the behaviour of some part of a user interface by looking only within the scope of a single JavaScript function.
 
 Here's an example of a React function component:
 
@@ -212,21 +212,21 @@ I want to try and explain this fully, so we're going to talk a lot more in detai
 
 First though, let's imagine we were to create a similar user interface to our previous example using just JavaScript.
 
-Without React, we have to describe imperatively (step-by-step) how the elements are to be constructed and related to one another when our code gets executed - e.g. first we create a button and then we attach an event handler to the button and so on, and so forth.
+Without React, we have to describe imperatively (step-by-step) how the elements are to be constructed and related to one another when our code gets executed - e.g. first we _create_ a div node and then we _create_ a button node and then we _attach_ an event handler to the button and then we _append_ the button to the div and so on, and so forth.
 
-In contrast to this, React components are **declarative**; we do not need to describe _how_ to construct our user interface, we only need to describe _what_ should be shown to the user.
+In contrast to this, React components are **declarative**; our div element _has_ children which _has_ the type of “button” and _has_ a click event handler.
 
-When we define a React component, we do not need to write the code that constructs the user interface elements explicitly - we are merely painting a picture for the renderer about how our user interface component should be.
+Our components do not need to describe _how_ to construct our user interface, they only need to describe _what_ is to be shown to the user at any given point in time.
 
-Since the elements that make up our user interface do not come into existence until we render the component hierarchy, we can also know for sure that, unless it is passed explicitly via props, it is impossible for one component to access an element which is created by another component and modify it's behaviour in some way - this is how React components enable us to fully encapsulate the behaviour of some part of our user interface and isolate it from the rest.
+What this means is, since the elements that make up our user interface do not come into existence until we render the component hierarchy, we can know for sure that, unless it is passed explicitly via props, it is impossible for one component to access an element which is created by another component and modify it's behaviour in some way - this is how React components enable us to fully encapsulate the behaviour of some part of our user interface and isolate it from the rest.
 
 This is also what enables us to maintain locality in our user interface code.
 
-When we look at the code in the MyCounterButton example, I can say with confidence that this component will _always_ render a button which says "counter", clicking the button will _always_ increment the number shown on the button, and there will _never_ be any other hidden behaviours attached to the button by other components that we need to be concerned about when editing this code.
+When we look at the code in the MyCounterButton example, I can say with confidence that this component will always render a button which says "counter", clicking the button will always increment the number shown on the button, and there will _never_ be any other hidden behaviours attached to the button by other components that we need to be concerned about when editing this code.
 
-We can make all of these assertions simply because the function does not have parameters, and so we know that running the function will always produce the same result, and the result will be defined only by the code inside the scope of the function.
+We can make these assertions simply because the MyCounterButton function does not have parameters, and so we know that running the function will always produce the same result, and the result will be defined only by the code inside the scope of the function.
 
-In general, we can say that the appearance and behaviour of some user interface element rendered by a React component will _only_ change if the props received from its parent change, or as a result of some state defined internally, and that the way in which some part of our user interface changes over time can only be decided by its associated React component, and not any other parts of the system.
+In general, we can say that the appearance and behaviour of some user interface element rendered by a React component will only change if the props received from its parent change, or as a result of some state defined internally, and that the way in which some part of our user interface changes over time will only be decided by its associated React component, and not any other parts of the system.
 
 This is how React enables us to break down a complex problem and reduce coupling between the component parts of our interface.
 
@@ -246,8 +246,10 @@ Thanks for taking the time to read this! <3
 
 Please let me know what you think of it. You can contact me by email at stef@srilq.email.
 
+Also, thank you Sam Greenhalgh for reading my first draft. What a nice man.
+
 References:
 
 - _Is React Functional Programming?_ - Eric Normand<br />https://lispcast.com/is-react-functional-programming/
--  _Composition: Every Layout_ - Heydon Pickering & Andy Bell<br />https://every-layout.dev/rudiments/composition/
+- _Composition: Every Layout_ - Heydon Pickering & Andy<br />Bell https://every-layout.dev/rudiments/composition/
 - _Why Rust's Unsafe Works_ - jam1garner<br />https://jam1.re/blog/why-rusts-unsafe-works
