@@ -58,7 +58,7 @@ I like this article called [Why Rust's Unsafe Works](https://jam1.re/blog/why-ru
 
 The Rust language is designed in such a way that functions are able to maintain locality; you can normally understand what a function does, and confidently make changes to it, without needing to read other parts of the code as well. You can also know with certainty whether or not a change you make to a function might break other parts of the code based purely on its return type and the type of its parameters.
 
-React does something similar for us, by allowing us to write our user interface code in such a way that the component parts can maintain locality - i.e. we should be able to make changes to one specific part of our code in the confidence that it will either not affect other parts at all, or that we can fully understand how it might affect other parts of our user interface.
+React does something similar for us, by allowing us to write our user interface code in such a way that the component parts can maintain locality - i.e. we should be able to make changes to one specific part of our user interface in the confidence that it will either not affect other parts at all, or that we can fully understand how it might affect other parts.
 
 React allows us to define a **React component** as a single JavaScript function or class. A component encapsulates all of the appearance and behaviour that makes up some part of a user interface.
 
