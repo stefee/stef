@@ -10,10 +10,6 @@ You can email me at [stef@srilq.email](mailto:stef@srilq.email).
 
 [Speedy builds with Docker Layer Caching](https://dev.to/stefee/speedy-builds-with-docker-layer-caching-4fae)
 
-## Talks 🗣
-
-[5 Things I Learned About Software Engineering From Watching Art Restoration Videos](https://www.youtube.com/watch?v=AwfXypdYcv0)
-
 ## Software Projects 🌱
 
 ### _react-promise-state-hook_
