@@ -8,7 +8,7 @@ You can email me at [stef@srilq.email](mailto:stef@srilq.email).
 
 [Understanding React as a system - Part 1](/post/0003/understanding-react-as-a-system-part-1)
 
-[Speedy builds with Docker Layer Caching](https://dev.to/stefee/speedy-builds-with-docker-layer-caching-4fae)
+[Speedy builds with Docker Layer Caching](/post/0002/docker-layer-caching)
 
 ## Software Projects 🌱
 
