@@ -6,7 +6,7 @@ export default function Post() {
     <div className="container">
       <Head>
         <title>Docker Layer Caching - Stef's Website</title>
-        <meta name="description" content="It’s important to be aware of dependencies between instructions in your Dockerfile to maximise the benefits from Docker layer caching." />
+        <meta name="description" content="Speedy builds with Docker Layer Caching - It’s important to be aware of dependencies between instructions in your Dockerfile to maximise the benefits from Docker layer caching." />
         <link rel="canonical" href="https://stef.sh/post/0002/docker-layer-caching" />
       </Head>
 
