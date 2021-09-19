@@ -6,6 +6,7 @@ export default function Home() {
     <div className="container">
       <Head>
         <title>Stef's Website</title>
+        <link rel="canonical" href="https://stef.sh/" />
       </Head>
 
       <main>
