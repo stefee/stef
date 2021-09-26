@@ -34,12 +34,12 @@ JavaScript modules for implementing W3C-standard responsive images.
 
 Packages:
 
-- [@renditions/get-sizes](https://github.com/renditions/get-sizes)
-- [@renditions/get-srcset](https://github.com/renditions/get-srcset)
-- [@renditions/react-img](https://github.com/renditions/react-img)
-- [@renditions/react-picture-source](https://github.com/renditions/react-picture-source)
+- [@renditions/get-sizes](https://npmjs.com/package/@renditions/get-sizes)
+- [@renditions/get-srcset](https://npmjs.com/package/@renditions/get-srcset)
+- [@renditions/react-img](https://npmjs.com/package/@renditions/react-img)
+- [@renditions/react-picture-source](https://npmjs.com/package/@renditions/react-picture-source)
 
-[Project board](https://renditions.dev/project)
+[Source](https://github.com/stefee/renditions)
 
 ### _letter-press_
 
