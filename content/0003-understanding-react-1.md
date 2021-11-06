@@ -36,7 +36,7 @@ Alternatively, we can create a very streamlined interface that works in a very s
 
 These are both valid choices and it depends who we have in mind as our user.
 
-Humans can be quite messy and unpredictable, so if we do decide to make an intuitive user interface then it's often necessary for us to grapple with a large amount of complexity; an intuitive user interface will need to be able to react appropriately _on the fly_ to our users doing things we did not expect or want them to do.
+Humans can be quite messy and unpredictable, so if we do decide to make an intuitive user interface - one that does not require learning ahead of time - then it's often necessary for us to grapple with a large amount of complexity; an intuitive user interface will need to be able to react appropriately _on the fly_ to our users doing things we did not expect or want them to do.
 
 And perhaps, as we learn more about our users, we will need to find new ways in which to accomodate them and so the complexity of interface will increase over time.
 
@@ -60,9 +60,7 @@ The Rust language is designed in such a way that functions are able to maintain 
 
 React does something similar for us, by allowing us to write our user interface code in such a way that the component parts can maintain locality - i.e. we should be able to make changes to one specific part of our user interface in the confidence that it will either not affect other parts at all, or that we can fully understand how it might affect other parts.
 
-React allows us to define a **React component** as a single JavaScript function or class. A component encapsulates all of the appearance and behaviour that makes up some part of a user interface.
-
-And in doing so, React makes it possible for us to reason about the behaviour of some part of a user interface by looking only within the scope of a single JavaScript function.
+React allows us to define a **React component** as a single JavaScript function or class (we will focus on the function kind here). A component encapsulates all of the appearance and behaviour that makes up some part of a user interface. By using React components, we can reason about the behaviour of some part of a user interface by looking only within the scope of a single JavaScript function.
 
 Here's an example of a React function component:
 
@@ -244,7 +242,7 @@ This was originally going to be a post about how `React.useRef` works - which I 
 
 Thanks for taking the time to read this! <3
 
-Please let me know what you think of it. You can contact me by email at stef@srilq.email.
+Please let me know what you think of it. You can contact me by email at stef@sril.email.
 
 Also, thank you Sam Greenhalgh for reading my first draft. What a nice man.
 
