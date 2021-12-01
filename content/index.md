@@ -10,6 +10,10 @@ You can email me at [stef@sril.email](mailto:stef@sril.email) or find me on [Lin
 
 [Speedy builds with Docker Layer Caching](/post/0002/docker-layer-caching)
 
+## Talks 🗣
+
+[5 Things I Learned About Software Engineering From Watching Art Restoration Videos](https://youtu.be/nWVD4MSyN2w)
+
 ## Software Projects 🌱
 
 ### _react-promise-state-hook_
