@@ -87,7 +87,7 @@ _Atelier_ is a React [styled-components](https://github.com/styled-components/st
 
 My research project in the final year of my degree was around simulating shock waves in real time using the Unity game engine. This project was largely considered to be a failure. You can read more about it in the [Technical Report doc](https://drive.google.com/file/d/1dPqoEMLLgfVp1GoaMR64fziYLpqxvOWr/view?usp=sharing).
 
-### web marketing sites at Feral Interactive
+### marketing websites at Feral Interactive
 
 - [Life Is Strange for Mac and Linux](https://www.feralinteractive.com/en/games/lifeisstrange/)
 - [Alien: Isolation for Mac and Linux](https://www.feralinteractive.com/en/games/alienisolation/)
