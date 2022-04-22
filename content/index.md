@@ -26,7 +26,7 @@ A simple React hook that provides state for async actions.
 
 ### _promise-settled-aggregate_
 
-Works like Promise.allSettled except it will reject with an AggregateError if some of the promises rejected, otherwise resolve with an array of values.
+Await an array of promises to be settled, then reject with an AggregateError upon failure, or resolve with an array of values upon success.
 
 [Package](https://www.npmjs.com/package/promise-settled-aggregate)
 
