@@ -16,14 +16,6 @@ You can email me at [stef@sril.email](mailto:stef@sril.email) or find me on [Lin
 
 ## Software Projects 🌱
 
-### _react-promise-state-hook_
-
-A simple React hook that provides state for async actions.
-
-[Package](https://www.npmjs.com/package/react-promise-state-hook)
-
-[Source](https://github.com/stefee/react-promise-state-hook)
-
 ### _promise-settled-aggregate_
 
 Await an array of promises to be settled, then reject with an AggregateError upon failure, or resolve with an array of values upon success.
@@ -31,6 +23,14 @@ Await an array of promises to be settled, then reject with an AggregateError upo
 [Package](https://www.npmjs.com/package/promise-settled-aggregate)
 
 [Source](https://github.com/stefee/promise-settled-aggregate)
+
+### _react-promise-state-hook_
+
+A simple React hook that provides state for async actions.
+
+[Package](https://www.npmjs.com/package/react-promise-state-hook)
+
+[Source](https://github.com/stefee/react-promise-state-hook)
 
 ### _renditions_
 
