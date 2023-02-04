@@ -10,7 +10,7 @@ This is perhaps a rather lofty ambition. A lot of people have written about Reac
 
 What I've found is that most of the writing about React is aimed specifically at front-end developers who are experienced in developing websites and other kinds of user interface code. I think maybe this is because the adoption of React in many teams has hinged on convincing the front-end developers in the team that it's something that they should be using.
 
-React is very popular now in teams of various sizes, which is great, or at least I think so. What this means though is that developers from various different schools of thought are now developing products with React, many of whom might not have chosen to use it otherwise.
+React is very popular now in teams of various sizes, which is great! What this means though is that developers from various different schools of thought are now developing products with React, many of whom might not have chosen to use it otherwise.
 
 My aim in writing this now is to try and help you to make the most of React even if, like me, you don't necessarily see yourself as a front-end developer.
 
