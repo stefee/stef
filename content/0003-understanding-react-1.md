@@ -158,7 +158,7 @@ function MyUserInterface () {
 
 With this interface, the "Hello dear" button works the same as before, but now if the user clicks the "Goodbye" button instead, they will see a different alert which says "Okeydokey".
 
-This example demonstrates how we were able to abstract some user interface behaviour into a component, and re-use the component to achieve distinct outcomes.
+This example shows how we are able to abstract some user interface behaviour into a component, and re-use components to do different things.
 
 This is good stuff! 👌
 
