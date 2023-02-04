@@ -4,6 +4,10 @@
 
 ---
 
+Note: since writing this, the React team has published a new docs website. The new [React Docs](https://beta.reactjs.org/learn/describing-the-ui) have put to bed pretty much all of the things which motivated me to write this, and they've done a much better job of explaining React for beginners than I've done here, so I recommend reading those docs instead.
+
+---
+
 I want to write about React to try and enable developers from various backgrounds to understand how it works, why it is good, and what it is good for.
 
 This is perhaps a rather lofty ambition. A lot of people have written about React already, so why do I feel the need to write this now?
