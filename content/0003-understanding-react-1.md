@@ -14,7 +14,7 @@ React is very popular now in teams of various sizes, which is great! What this m
 
 My aim in writing this now is to try and help you to make the most of React even if, like me, you don't necessarily see yourself as a front-end developer.
 
-I am also hoping that in the process of writing this I might be able to clarify my own mental model of React. So if you are experienced with React then hopefully this will still be interesting to read and you will learn as much from reading it as I have learned from writing it.
+I am also hoping that in the process of writing this I might be able to clarify my own mental model of React. So if you are experienced with React then hopefully this will still be interesting to read and you will learn something.
 
 This is the first post of a two part series. In this introductory post I want to lay down a baseline understanding of React and what it does for us. The second part will go into more detail about how a React application works at runtime so we can try to build a mental model of React as a system.
 
