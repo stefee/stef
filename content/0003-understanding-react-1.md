@@ -168,8 +168,6 @@ Sidenote: I should explain the **children** prop which we used in AlertButton be
 
 The children prop is a special prop which takes on the value of whatever appears between the open and close tags in our JSX code (`<AlertButton>` and `</AlertButton>`) and it is used to describe a **component hierarchy**.
 
-Put simply, this means that whenever a component is rendered, its children will also be rendered as well as its children's children and so on, and so forth.
-
 The component hierarchy is what makes React components **composable**; components can be assembled in different combinations to satisfy different needs.
 
 ---
