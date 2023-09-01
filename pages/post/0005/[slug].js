@@ -5,7 +5,7 @@ export default function Post() {
   return (
     <div className="container">
       <Head>
-        <title>Using unsafe cast in TypeBox to convert formatted string types to template string literal types - Stef's Website</title>
+        <title>Using unsafe cast in TypeBox to convert strings to template string literals - Stef's Website</title>
         <meta name="description" content="You can use Type.Unsafe to change the output type of a schema such as to cast a formatted string to a template literal type in a validation schema. I wanted to share this explanation for anyone trying to figure out how to do this, because it took me a while to figure it out!" />
         <link rel="canonical" href="https://stef.sh/post/0005/typebox-unsafe-cast" />
       </Head>
