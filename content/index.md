@@ -6,7 +6,7 @@ You can email me at [stef@sril.email](mailto:stef@sril.email) or find me on [Lin
 
 ## Writing ✍️
 
-[Using unsafe cast in TypeBox to convert formatted string types to template string literal types](/post/0005/typebox-unsafe-cast)
+[Using unsafe cast in TypeBox to convert strings to template string literals](/post/0005/typebox-unsafe-cast)
 
 [Understanding React as a system - Part 1](/post/0003/understanding-react-as-a-system-part-1)
 
