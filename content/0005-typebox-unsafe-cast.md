@@ -18,7 +18,7 @@ const schema = {
 
 ---
 
-I wanted to share this for anyone that is trying to figure out how to do this because it took me forever to figure this out.
+I wanted to share this explanation for anyone trying to figure out how to do this, because it took me a while to figure it out!
 
 The scenario is I'm using TypeBox as a type provider for Fastify which is using Ajv schema under the hood for parsing and validation of request params. My route handler is expecting a UUID string parameter:
 
