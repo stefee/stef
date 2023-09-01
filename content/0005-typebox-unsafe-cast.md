@@ -1,4 +1,4 @@
-# Using unsafe cast in TypeBox to convert formatted string types to template string literal types
+# Using unsafe cast in TypeBox to convert strings to template string literals
 
 1 September 2023
 
