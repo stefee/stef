@@ -2,7 +2,7 @@
 
 Welcome!
 
-You can email me at [stef@sril.email](mailto:stef@sril.email) or find me on [LinkedIn](https://www.linkedin.com/in/stefee/), [GitHub](https://www.github.com/stefee) and <a rel="me" href="https://mas.to/@stefee">Mastodon</a>.
+You can email me at [stef@sril.email](mailto:stef@sril.email) or find me on [LinkedIn](https://www.linkedin.com/in/stefee/), [GitHub](https://www.github.com/stefee) and [Threads](https://www.threads.net/@abstefee).
 
 ## Writing ✍️
 
