@@ -6,6 +6,8 @@ You can email me at [stef@sril.email](mailto:stef@sril.email) or find me on [Lin
 
 ## Writing ✍️
 
+[Chakra UI is still great in 2024](/post/0006/chakra-ui-2024/)
+
 [Using unsafe cast in TypeBox to convert strings to template string literals](/post/0005/typebox-unsafe-cast)
 
 [Understanding React as a system - Part 1](/post/0003/understanding-react-as-a-system-part-1)
